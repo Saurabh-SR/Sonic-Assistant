@@ -63,9 +63,9 @@ Its Super Scalable
    ```
 
 3. **Set Up WeatherAPI:**
-   - Sign up at WeatherAPI to get your API key.
-   - Replace the placeholder in the weather_api variable with your API key.
-   - Run the Assistant:
+- Sign up at WeatherAPI to get your API key.
+- Replace the placeholder in the weather_api variable with your API key.
+- Run the Assistant:
    ```bash   
    python main.py
    ```
