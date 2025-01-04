@@ -4,8 +4,6 @@ Sonic Assistant is an intelligent virtual assistant designed to simplify everyda
 It integrates speech recognition, text-to-speech synthesis and various functionalities like note-taking, weather updates, web browsing, and many more.
 Its Super Scalable
 
--
-
 
 ## Features
 
@@ -37,7 +35,7 @@ Its Super Scalable
 9. **Exit Commands:**
    - Responds to shutdown commands to exit the assistant.
 
--
+
 
 ## Requirements
 
@@ -50,7 +48,6 @@ Its Super Scalable
   - `requests`
   - `pyttsx3` (optional for speech synthesis)
 
--
 
 ## Installation
 
@@ -72,7 +69,7 @@ Its Super Scalable
    ```bash   
    python main.py
    ```
----
+
 ## Usage
 1. **Start Sonic Assistant:**
    - On running the script, the assistant will greet you and listen for your commands.
@@ -90,7 +87,7 @@ Its Super Scalable
    - Search: "Search for [query]"
    - Shutdown: "Close", "Stop", or "Shutdown"
 
--
+
 
 ## Project Structure
 ```bash
@@ -101,7 +98,7 @@ sonic-assistant/
 └── README.md           # Project documentation
 ```
 
--
+
 
 ## Known Issues
 - Speech recognition might fail in noisy environments.
