@@ -53,8 +53,25 @@ Its Super Scalable
 ---
 
 ## Installation
+---
 
 1. **Clone the Repository:**
    ```bash
    git clone https://github.com/your-username/sonic-assistant.git
    cd sonic-assistant
+   ```
+
+Install Dependencies:
+
+   ```bash
+   pip install -r requirements.txt
+   ```
+
+3. **Set Up WeatherAPI:**
+   -Sign up at WeatherAPI to get your API key.
+   -Replace the placeholder in the weather_api variable with your API key.
+   -Run the Assistant:
+   ```bash   
+   python main.py
+   ```
+
