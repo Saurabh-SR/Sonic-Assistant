@@ -1,8 +1,8 @@
 # Sonic Assistant
 
-Sonic Assistant is an intelligent virtual assistant designed to simplify everyday tasks. 
-It integrates speech recognition, text-to-speech synthesis and various functionalities like note-taking, weather updates, web browsing, and many more.
-Its Super Scalable
+Sonic Assistant is an intelligent virtual assistant designed to simplify everyday tasks.
+It integrates speech recognition, text-to-speech synthesis, and functionalities like note-taking, weather updates, web browsing, and more.
+Its architecture is super scalable, making it adaptable for future enhancements.
 
 
 ## Features
@@ -64,7 +64,7 @@ Its Super Scalable
 
 3. **Set Up WeatherAPI:**
 - Sign up at WeatherAPI to get your API key.
-- Replace the placeholder in the weather_api variable with your API key.
+- Replace <your_weather_api_key> in the weather_api variable inside main.py with your API key.
 - Run the Assistant:
    ```bash   
    python main.py
@@ -75,17 +75,24 @@ Its Super Scalable
    - On running the script, the assistant will greet you and listen for your commands.
 
 2. **Available Commands:**
-   - Web Browsing: "Open YouTube", "Open Google"
-   - Music Playback: "Play music"
-   - Time Inquiry: "What is the current time?"
-   - Weather Updates: "What is the weather in [city]?"
-   - Note-Taking:
-      - "Make a note"
-      - "Read note"
-      - "Delete note"
-   - Application Launch: "Open Tableau"
-   - Search: "Search for [query]"
-   - Shutdown: "Close", "Stop", or "Shutdown"
+Usage
+Start Sonic Assistant:
+
+On running the script, the assistant will greet you and listen for your commands.
+Available Commands:
+
+
+| **Command**         | **Action**                     | **Example**                    |  
+|----------------------|---------------------------------|---------------------------------|  
+| **Web Browsing**     | Opens a website                | "Open YouTube"                 |  
+| **Music Playback**   | Plays predefined music         | "Play music"                   |  
+| **Time Inquiry**     | Tells current time             | "What is the current time?"    |  
+| **Weather Updates**  | Reports weather for a city     | "What is the weather in Mumbai?"|  
+| **Note-Taking**      | Create, read, or delete notes  | "Make a note", "Read note"     |  
+| **App Launch**       | Opens installed applications   | "Open Tableau"                 |  
+| **Search**           | Performs a Google search       | "Search for Python tutorials"  |  
+| **Shutdown**         | Exits the assistant            | "Stop", "Close"                |  
+
 
 
 
@@ -110,6 +117,9 @@ sonic-assistant/
 - Implement multi-language support.
 - Include a graphical user interface (GUI).
 - Enhance error handling and command recognition.
+
+## Development Environment
+This project was developed using **PyCharm**, a robust and feature-rich IDE for Python development. I personaly loved the code assistance part of it 🙂 
 
 ## Contributions
 Contributions are welcome! Please fork the repository, make changes, and submit a pull request.
