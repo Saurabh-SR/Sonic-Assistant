@@ -82,16 +82,18 @@ On running the script, the assistant will greet you and listen for your commands
 Available Commands:
 
 
-| **Command**         | **Action**                     | **Example**                    |  
-|----------------------|---------------------------------|---------------------------------|  
-| **Web Browsing**     | Opens a website                | "Open YouTube"                 |  
-| **Music Playback**   | Plays predefined music         | "Play music"                   |  
-| **Time Inquiry**     | Tells current time             | "What is the current time?"    |  
-| **Weather Updates**  | Reports weather for a city     | "What is the weather in Mumbai?"|  
-| **Note-Taking**      | Create, read, or delete notes  | "Make a note", "Read note"     |  
-| **App Launch**       | Opens installed applications   | "Open Tableau"                 |  
-| **Search**           | Performs a Google search       | "Search for Python tutorials"  |  
-| **Shutdown**         | Exits the assistant            | "Stop", "Close"                |  
+| **Command**                | **Action**                                                                                      | **Example**                      |
+|----------------------------|-----------------------------------------------------------------------------------------------|----------------------------------|
+| **open [website]**          | Opens a specified website in a browser.                                                        | "Open YouTube", "Open Google"    |
+| **play music**              | Plays a predefined music file from your system.                                                | "Play music"                     |
+| **current time**            | Reports the current time.                                                                     | "What is the current time?"      |
+| **open tableau**            | Opens the Tableau application.                                                                 | "Open Tableau"                   |
+| **weather in**              | Fetches the current weather for a specified city using the Weather API.                        | "What is the weather in Mumbai?" |
+| **search for**              | Performs a Google search for a specified query.                                                | "Search for Python tutorials"    |
+| **make note**               | Creates a new note by dictating the content.                                                   | "Make a note"                    |
+| **read note**               | Reads a saved note aloud.                                                                      | "Read note"                      |
+| **delete note**             | Deletes a saved note.                                                                          | "Delete note"                    |
+| **close / shutdown / stop** | Shuts down the assistant.                                                                      | "Stop", "Close", "Shutdown"      |
 
 
 
@@ -129,5 +131,5 @@ Weather data provided by WeatherAPI(https://www.weatherapi.com/).
 
 ## Happy Coding! 🎉
 
-Let me know if you need further modifications! 😃 
+Let me know if you need further modifications! 😃 🫡
 
