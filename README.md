@@ -61,8 +61,7 @@ Its Super Scalable
    cd sonic-assistant
    ```
 
-Install Dependencies:
-
+2. **Install Dependencies:**
    ```bash
    pip install -r requirements.txt
    ```
@@ -74,4 +73,32 @@ Install Dependencies:
    ```bash   
    python main.py
    ```
+---
+## Usage
+1. **Start Sonic Assistant:**
+   -On running the script, the assistant will greet you and listen for your commands.
+
+2. **Available Commands:**
+   -Web Browsing: "Open YouTube", "Open Google"
+   -Music Playback: "Play music"
+   -Time Inquiry: "What is the current time?"
+   -Weather Updates: "What is the weather in [city]?"
+   -Note-Taking:
+      -"Make a note"
+      -"Read note"
+      -"Delete note"
+   -Application Launch: "Open Tableau"
+   -Search: "Search for [query]"
+   -Shutdown: "Close", "Stop", or "Shutdown"
+
+---
+
+## Project Structure
+```bash
+sonic-assistant/
+│
+├── main.py             # Main script for the assistant
+├── requirements.txt    # List of dependencies
+└── README.md           # Project documentation
+```
 
