@@ -53,7 +53,6 @@ Its Super Scalable
 ---
 
 ## Installation
----
 
 1. **Clone the Repository:**
    ```bash
@@ -67,29 +66,29 @@ Its Super Scalable
    ```
 
 3. **Set Up WeatherAPI:**
-   -Sign up at WeatherAPI to get your API key.
-   -Replace the placeholder in the weather_api variable with your API key.
-   -Run the Assistant:
+   - Sign up at WeatherAPI to get your API key.
+   - Replace the placeholder in the weather_api variable with your API key.
+   - Run the Assistant:
    ```bash   
    python main.py
    ```
 ---
 ## Usage
 1. **Start Sonic Assistant:**
-   -On running the script, the assistant will greet you and listen for your commands.
+   - On running the script, the assistant will greet you and listen for your commands.
 
 2. **Available Commands:**
-   -Web Browsing: "Open YouTube", "Open Google"
-   -Music Playback: "Play music"
-   -Time Inquiry: "What is the current time?"
-   -Weather Updates: "What is the weather in [city]?"
-   -Note-Taking:
-      -"Make a note"
-      -"Read note"
-      -"Delete note"
-   -Application Launch: "Open Tableau"
-   -Search: "Search for [query]"
-   -Shutdown: "Close", "Stop", or "Shutdown"
+   - Web Browsing: "Open YouTube", "Open Google"
+   - Music Playback: "Play music"
+   - Time Inquiry: "What is the current time?"
+   - Weather Updates: "What is the weather in [city]?"
+   - Note-Taking:
+      - "Make a note"
+      - "Read note"
+      - "Delete note"
+   - Application Launch: "Open Tableau"
+   - Search: "Search for [query]"
+   - Shutdown: "Close", "Stop", or "Shutdown"
 
 ---
 
@@ -101,4 +100,27 @@ sonic-assistant/
 ├── requirements.txt    # List of dependencies
 └── README.md           # Project documentation
 ```
+
+---
+
+## Known Issues
+- Speech recognition might fail in noisy environments.
+- Weather updates require a valid city name and API key.
+- Limited functionality for note management due to fixed filename length.
+
+## Future Enhancements
+- Add support for custom voice commands.
+- Implement multi-language support.
+- Include a graphical user interface (GUI).
+- Enhance error handling and command recognition.
+
+## Contributions
+Contributions are welcome! Please fork the repository, make changes, and submit a pull request.
+
+## Acknowledgments
+Weather data provided by WeatherAPI(https://www.weatherapi.com/).
+
+## Happy Coding! 🎉
+
+Let me know if you need further modifications! 😃 
 
