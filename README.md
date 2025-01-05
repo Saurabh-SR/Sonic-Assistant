@@ -39,7 +39,7 @@ Its architecture is super scalable, making it adaptable for future enhancements.
 
 ## Requirements
 
-- Python 3.8+
+- Python 3.x (version 3.6+ recommended)
 - Internet connection for web-based services (e.g., weather, web browsing)
 - Microphone for voice input
 - Dependencies:
