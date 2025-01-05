@@ -44,9 +44,14 @@ Its architecture is super scalable, making it adaptable for future enhancements.
 - Microphone for voice input
 - Dependencies:
   - `speechrecognition`
-  - `pypiwin32`
-  - `requests`
+  - `pypiwin32` (for Windows-specific functionalities such as win32com.client and text-to-speech)
+  - `requests` (for making HTTP requests, e.g., fetching weather data)
   - `pyttsx3` (optional for speech synthesis)
+
+- Built-in Python Libraries (No installation required):
+  - `webbrowser` (for opening websites)
+  - `datetime` (for time handling)
+  - `os` (for file system operations)
 
 
 ## Installation
