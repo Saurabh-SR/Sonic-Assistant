@@ -5,7 +5,7 @@ It integrates speech recognition, text-to-speech synthesis, and functionalities 
 Its architecture is super scalable, making it adaptable for future enhancements.
 
 
-## Features
+## Features 
 
 1. **Voice Interaction:**
    - Responds to commands using natural language processing.
