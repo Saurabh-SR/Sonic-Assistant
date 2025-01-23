@@ -4,7 +4,7 @@ Sonic Assistant is an intelligent virtual assistant designed to simplify everyda
 It integrates speech recognition, text-to-speech synthesis, and functionalities like note-taking, weather updates, web browsing, and more.
 Its architecture is super scalable, making it adaptable for future enhancements.
 
-
+  
 ## Features 
 
 1. **Voice Interaction:**
